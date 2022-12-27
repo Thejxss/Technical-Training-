@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main()
+{
+    int day;
+    scanf("%d",&day);
+    switch(day) {
+        case 1 : //if (day==1)
+           printf("Boss! Its Monday , concentrate on \"work\"");
+           break;
+        case 2 ... 4 : // case 2 : case 3 : case 4:
+           printf("Still its week day only");
+           break;
+        case 5 :
+           printf(" Its Friday , get ready for weekend");
+           break;
+        case 6 : case 7 :
+           printf(" Enjoy the holiday");
+           break;
+        default :
+           printf("Invalid day");
+    }
+
+    return 0;
+}
+
+           printf(" Invalid operator");
+           return 0;
+  }
+        printf(" %g %c %g = %g", op1,opr,op2,result); //%g can be used only for double and float
+           
+  
+    return 0;
+}

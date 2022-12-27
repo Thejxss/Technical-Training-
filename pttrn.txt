@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+      int n;
+    scanf("%d",&n);
+      for(int r=n;r>=1;r--){  
+          for(int c=1;c<=r;c++) 
+            printf("%d",c); 
+            
+        for(int c=1;c<=n-r;c++)   
+            printf("  ");      // here give double space
+        for(int c=r;c>=1;c--) 
+            printf("*"); 
+         printf("\n");
+      }
+    return 0;
+      }
